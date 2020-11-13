@@ -1,8 +1,12 @@
 :root {
   --black: #000000;
-  --bold-yellow: #ffe160;
+  --neon-blue: #6161ff;
+  --cyber-yellow: #ffd416;
+  --medium-yellow: #ffe160;
   --light-yellow: #ffffe8;
   --white: #ffffff;
+  --cultured: #f4f4f4;
+  --light-gray: #f4f4ea;
 
   --main-font: "Mulish", sans-serif;
   --heading-font: "IBM Plex Serif", serif;

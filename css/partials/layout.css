@@ -14,6 +14,9 @@ body {
   width: 100%;
   font-family: var(--main-font);
   font-size: var(--font-regular);
+  text-decoration: none;
+  outline: none;
+  list-style: none;
 }
 
 /* header */
@@ -25,7 +28,80 @@ header {
 .desktop-nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: var(--black);
+  width: 100%;
+  color: var(--white);
+}
+
+.desktop-nav__logo {
+  /* border: solid 1px yellow; */
+}
+
+.desktop-nav__menu {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: solid 1px yellow; */
+}
+
+.menu a {
+  color: var(--white);
+}
+
+.menu li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.desktop-nav__searchbar {
+  position: relative;
+  /* border: solid 1px green; */
+  padding: 10px 0px 10px 50px;
+}
+
+.desktop-nav__searchbar input[type="text"] {
+  border: 0;
+  padding: 0;
+  width: 0;
+  height: 35px;
+  border-radius: 0;
+  transition: 0.3x;
+}
+
+.desktop-nav__searchbar .searchbar-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 100%;
+  background: none;
+  color: var(--white);
+  transition: 0.5s;
+}
+
+.desktop-nav__searchbar .searchbar-icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.desktop-nav__searchbar .searchbar-icon.active {
+  background: var(--black);
+  transition: 0.3s;
+}
+
+.desktop-nav__searchbar input[type="text"].active {
+  width: 220px;
+  padding: 0 10px;
+  transition: all 0.5s 0.2s ease;
 }
 
 .mobile-nav {
