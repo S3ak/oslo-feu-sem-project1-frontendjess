@@ -1,5 +1,5 @@
 .home--main {
-  position: relative;
+  /* position: relative; */
 }
 
 .home--hero-banner {
@@ -28,6 +28,7 @@
   height: 800px;
   background-color: var(--cultured);
 }
+
 .home--info-banner {
   background: rgb(97, 97, 255);
   background: linear-gradient(
@@ -39,4 +40,12 @@
   height: 300px;
   display: flex;
   justify-content: space-around;
+}
+
+.box1 {
+  height: 200px;
+  width: 200px;
+}
+.box1:hover {
+  background-color: hotpink;
 }
