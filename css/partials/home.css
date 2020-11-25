@@ -70,8 +70,9 @@
 }
 
 .home--content__events-banner-top {
-  width: 1330px;
-  height: 109px;
+  max-width: 80%;
+  width: 100%;
+  height: 75px;
   background-color: var(--cyber-yellow);
 }
 
