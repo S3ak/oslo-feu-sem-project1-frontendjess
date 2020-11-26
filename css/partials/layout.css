@@ -66,6 +66,12 @@ header {
   padding: 10px 0px 10px 50px;
 }
 
+.desktop-nav__searchbar input {
+  text-transform: uppercase;
+  font-family: var(--main-font);
+  font-size: var(--font-regular);
+}
+
 .desktop-nav__searchbar input[type="text"] {
   border: 0;
   padding: 0;

@@ -36,14 +36,29 @@
     top: 0;
   }
 
-  .mobile-nav a:hover {
+  /* .mobile-nav a:hover {
     background-color: var(--cyber-yellow);
     color: var(--black);
-  }
+  } */
 
   .active {
     background-color: var(--black);
-    color: white;
+    color: var(--white);
+  }
+
+  .mobile-nav__searchbar input {
+    color: var(--white);
+  }
+
+  .mobile-nav__searchbar input[type="text"] {
+    width: 100%;
+    padding: 14px 16px;
+    background-color: var(--light-black);
+    border: none;
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: var(--main-font);
+    font-size: var(--font-regular);
   }
 
   .footer {
