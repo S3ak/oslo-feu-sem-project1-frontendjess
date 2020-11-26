@@ -1,0 +1,19 @@
+/* mobile version */
+
+@media only screen and (max-width: 767px) {
+  .desktop-nav__searchbar {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer__sub {
+    flex-direction: column;
+  }
+
+  .footer__social-media {
+    padding-top: 15px;
+  }
+}
