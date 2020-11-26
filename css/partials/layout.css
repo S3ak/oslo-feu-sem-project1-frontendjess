@@ -121,11 +121,11 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  max-width: 60%;
+  max-width: 1140px;
   padding: var(--padding-footer);
   line-height: 1.5;
   color: var(--white);
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .desktop--footer a {
@@ -137,12 +137,6 @@ header {
   list-style: none;
 }
 
-.desktop--footer__links-left {
-}
-
-.desktop--footer__links-middle {
-}
-
 .desktop--footer__social-media {
   text-align: center;
 }
@@ -151,9 +145,8 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  max-width: 60%;
+  max-width: 1140px;
   padding: var(--padding-sub-footer);
-  border: solid 1px pink;
 }
 
 .desktop--footer__sub--links li {
@@ -167,4 +160,8 @@ header {
 .fa-instagram-square,
 .fa-twitter-square {
   color: var(--cyber-yellow);
+}
+
+.desktop--footer__social-media--icons {
+  font-size: var(--font-xxxlarge);
 }
