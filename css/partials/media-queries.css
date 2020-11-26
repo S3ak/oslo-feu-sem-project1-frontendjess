@@ -1,8 +1,49 @@
 /* mobile version */
 
 @media only screen and (max-width: 767px) {
+  .desktop-nav {
+    display: none;
+  }
+
   .desktop-nav__searchbar {
     display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    overflow: hidden;
+    background-color: var(--black);
+    position: relative;
+  }
+
+  .mobile-nav #mobileLinks {
+    display: none;
+  }
+
+  .mobile-nav a {
+    color: var(--white);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: var(--font-regular);
+    display: block;
+  }
+
+  .mobile-nav a.icon {
+    background: var(--black);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .mobile-nav a:hover {
+    background-color: var(--cyber-yellow);
+    color: var(--black);
+  }
+
+  .active {
+    background-color: var(--black);
+    color: white;
   }
 
   .footer {
