@@ -11,7 +11,9 @@
   --light-black: #222222;
 
   --main-font: "Mulish", sans-serif;
-  --heading-font: "IBM Plex Serif", serif;
+  --heading-font: ;
+  --ibm-font: "IBM Plex Serif", serif;
+  --roboto-font: "Roboto", sans-serif;
 
   --font-regular: 1rem;
   --font-medium: 1.125rem;

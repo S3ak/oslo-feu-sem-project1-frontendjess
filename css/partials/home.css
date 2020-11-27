@@ -25,11 +25,13 @@
   /* border: solid 1px blue; */
   background-color: var(--white);
   position: relative;
+  line-height: 1.5;
 }
 
 .home--hero-banner__text--address {
   text-align: right;
   font-size: var(--font-large);
+  margin-top: 5px;
 }
 
 .home--hero-banner__button {
@@ -45,7 +47,24 @@
   color: var(--white);
 }
 
+.home--hero-banner__text--intro {
+  margin-top: 15px;
+}
+
 .home--content {
   height: 1000px;
   background-color: var(--cultured);
+  display: flex;
+  justify-content: center;
+}
+
+.home--content__visit {
+  margin: 50px 0 50px 0;
+  border: solid 1px hotpink;
+  width: 1140px;
+}
+
+.home--content__visit--heading-banner {
+  background-color: var(--cyber-yellow);
+  padding: 30px;
 }

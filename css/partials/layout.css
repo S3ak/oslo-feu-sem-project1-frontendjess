@@ -118,6 +118,14 @@ header {
   width: 100%;
 }
 
+/* banners */
+
+.banner-heading-text {
+  font-family: var(--roboto-font);
+  font-size: var(--font-xlarge);
+  font-weight: 700;
+}
+
 /* footer */
 
 .footer-wrapper {
