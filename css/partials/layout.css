@@ -17,6 +17,7 @@ body {
   text-decoration: none;
   outline: none;
   list-style: none;
+  background-image: var(--cultured);
 }
 
 /* header */
