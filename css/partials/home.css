@@ -60,7 +60,6 @@
 
 .home--content__visit {
   margin: 50px 0 50px 0;
-
   width: 1140px;
 }
 
@@ -127,4 +126,21 @@
 
 .home--content__visit--content__text {
   padding: 15px 0;
+}
+
+.home--content__visit--link-banner {
+  background-color: var(--cyber-yellow);
+  padding: 30px;
+  text-align: right;
+}
+
+.home--content__contribute {
+  background-color: var(--dark-gray);
+  display: flex;
+  justify-content: center;
+}
+
+.home--content__contribute--heading-banner {
+  background-color: var(--neon-blue);
+  padding: 30px;
 }
