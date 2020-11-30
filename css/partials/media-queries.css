@@ -81,6 +81,15 @@
     padding: 15px;
   }
 
+  /* HOME SUB CONTENT CONTRIBUTE SECTION */
+  .home--sub-content__contribute--wrapper {
+    display: block;
+  }
+
+  .contribute-images {
+    width: 100%;
+  }
+
   /* FOOTER */
 
   .footer {

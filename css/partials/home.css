@@ -154,20 +154,12 @@
 .home--sub-content__contribute--wrapper {
   display: flex;
   justify-content: space-between;
-  border: solid 1px yellow;
   gap: 30px;
-}
-
-.home--sub-content__contribute--volunteer {
-  border: solid 1px yellowgreen;
-}
-
-.home--sub-content__contribute--donate {
-  border: solid 1px yellowgreen;
 }
 
 .contribute-images {
   max-width: 100%;
+  display: block;
 }
 
 .contribute-banner-text {
