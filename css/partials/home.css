@@ -134,13 +134,36 @@
   text-align: right;
 }
 
-.home--content__contribute {
+.home--sub-content {
   background-color: var(--dark-gray);
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
-.home--content__contribute--heading-banner {
+.home--sub-content__contribute {
+  margin: 50px 0;
+  width: 1140px;
+}
+.home--sub-content__contribute--heading-banner {
   background-color: var(--neon-blue);
   padding: 30px;
+  max-width: 100%;
+}
+
+.home--sub-content__contribute--wrapper {
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px yellow;
+  gap: 30px;
+}
+
+.home--sub-content__contribute--volunteer {
+  border: solid 1px yellowgreen;
+  width: 100%;
+}
+
+.home--sub-content__contribute--donate {
+  border: solid 1px yellowgreen;
+  width: 100%;
 }
