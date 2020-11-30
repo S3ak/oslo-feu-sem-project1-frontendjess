@@ -56,6 +56,10 @@ header {
   font-weight: 800;
 }
 
+.menu ul {
+  position: relative;
+}
+
 .menu li {
   display: inline-block;
   padding: 10px;
