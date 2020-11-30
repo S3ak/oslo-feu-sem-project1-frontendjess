@@ -160,10 +160,19 @@
 
 .home--sub-content__contribute--volunteer {
   border: solid 1px yellowgreen;
-  width: 100%;
 }
 
 .home--sub-content__contribute--donate {
   border: solid 1px yellowgreen;
-  width: 100%;
+}
+
+.contribute-images {
+  max-width: 100%;
+}
+
+.contribute-banner-text {
+  padding: 15px;
+  background-color: var(--black);
+  color: var(--white);
+  font-weight: 700;
 }
