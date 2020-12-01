@@ -4,6 +4,15 @@
   width: 100%;
 }
 
+.home--main a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.home--main a:hover {
+  text-decoration: underline;
+}
+
 .home--hero-banner {
   background-image: url("../../img/museum-hero-banner.jpg");
   background-size: cover;
@@ -15,7 +24,7 @@
 
 .home--hero-banner__text {
   max-width: 1140px;
-  margin-top: -75px;
+  margin-top: -100px;
   margin-left: auto;
   margin-right: auto;
   padding: 50px;
@@ -59,11 +68,12 @@
 }
 
 .home--content__visit {
-  margin: 50px 0 50px 0;
+  margin: var(--margin-section-wrappers);
   width: 1140px;
 }
 
-.home--content__visit--heading-banner {
+.home--content__visit--heading-banner,
+.home--content__visit--link-banner {
   background-color: var(--cyber-yellow);
   padding: 30px;
 }
@@ -75,10 +85,14 @@
   grid-template-areas:
     "event1 event2"
     "event3 event4";
-  grid-gap: 1.875rem;
+  grid-gap: var(--gap-columns);
   width: 100%;
   grid-template-columns: minmax(48%, 1fr) minmax(48%, 1fr);
   justify-items: space-between;
+}
+
+.home--content__visit--content a {
+  color: var(--black);
 }
 
 .home--content__visit--content__1 {
@@ -124,14 +138,22 @@
   font-weight: 700;
 }
 
+.home--content__visit--content__heading a:hover,
+.home--content__visit--content__text a:hover {
+  text-decoration: none;
+}
+
 .home--content__visit--content__text {
   padding: 15px 0;
 }
 
+.home--content__visit--content__text a {
+  font-weight: 400;
+}
+
 .home--content__visit--link-banner {
-  background-color: var(--cyber-yellow);
-  padding: 30px;
   text-align: right;
+  margin-top: var(--margin-top-contents-outro-link-banners);
 }
 
 .home--sub-content {
@@ -142,10 +164,11 @@
 }
 
 .home--sub-content__contribute {
-  margin: 50px 0;
+  margin: var(--margin-section-wrappers);
   width: 1140px;
 }
-.home--sub-content__contribute--heading-banner {
+.home--sub-content__contribute--heading-banner,
+.home--sub-content__contribute--link-banner {
   background-color: var(--neon-blue);
   padding: 30px;
   max-width: 100%;
@@ -154,7 +177,11 @@
 .home--sub-content__contribute--wrapper {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: var(--gap-columns);
+}
+
+.home--sub-content__contribute--wrapper a {
+  color: var(--white);
 }
 
 .contribute-images {
@@ -167,4 +194,16 @@
   background-color: var(--black);
   color: var(--white);
   font-weight: 700;
+}
+
+.contribute-volunteer-link,
+.contribute-donate-link {
+  padding: 15px;
+  background-color: var(--black);
+  display: block;
+}
+
+.home--sub-content__contribute--link-banner {
+  text-align: right;
+  margin-top: var(--margin-top-contents-outro-link-banners);
 }
