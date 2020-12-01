@@ -6,11 +6,6 @@
 
 .home--main a {
   text-decoration: none;
-  font-weight: 700;
-}
-
-.home--main a:hover {
-  text-decoration: underline;
 }
 
 .home--hero-banner {
@@ -201,6 +196,7 @@
   padding: 15px;
   background-color: var(--black);
   display: block;
+  font-weight: 700;
 }
 
 .home--sub-content__contribute--link-banner {

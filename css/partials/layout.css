@@ -135,6 +135,10 @@ header {
   color: var(--black);
 }
 
+.banner-heading-text a:hover {
+  text-decoration: underline;
+}
+
 /* .banner-heading-text a:hover {
   text-decoration: underline;
 } */
@@ -153,6 +157,14 @@ header {
   max-width: 1140px;
   display: flex;
   justify-content: space-between;
+}
+
+.media-back-to-top a {
+  color: var(--black);
+}
+
+.media-back-to-top a:hover {
+  text-decoration: none;
 }
 
 .share-this-page-icons,
