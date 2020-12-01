@@ -90,6 +90,17 @@
     width: 100%;
   }
 
+  /* SHARE THIS PAGE - BADK TO TOP */
+
+  .media-back-to-top {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .media-back-to-top__top-link {
+    padding-top: 15px;
+  }
+
   /* FOOTER */
 
   .footer {
