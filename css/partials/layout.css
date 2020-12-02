@@ -17,13 +17,18 @@ body {
   text-decoration: none;
   outline: none;
   list-style: none;
-  background-image: var(--cultured);
 }
 
 /* header */
 
 header {
   width: 100%;
+  background-color: var(--black);
+}
+
+.desktop-nav--wrapper {
+  width: 100%;
+  margin: 0 auto;
 }
 
 .desktop-nav {
@@ -47,6 +52,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  line-height: 2rem;
   /* border: solid 1px yellow; */
 }
 
@@ -122,7 +128,7 @@ header {
   width: 100%;
 }
 
-/* nav hover effect code by Artyom - check resource sheet for credit link */
+/* nav hover effect code by Artyom - check resource doc for credit link */
 .menu-effect li {
   display: inline-block;
 }
@@ -213,9 +219,19 @@ header {
   text-decoration: underline;
 } */
 
-/* span font */
+/* span font & other heading fonts  */
+.bold-weight-font {
+  font-weight: 700;
+}
+
 .light-weight-font {
   font-weight: 300;
+}
+
+.page-banner-headings {
+  padding-left: 15px;
+  font-weight: 800;
+  font-size: var(--font-xlarge);
 }
 
 /* social media - back to top links */

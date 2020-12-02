@@ -1,0 +1,39 @@
+.explore--hero-banner {
+  background-image: url("../../img/science-boy-binoculars.jpg");
+  background-size: cover;
+  background-position: center center;
+  max-width: 100%;
+  height: 700px;
+  position: relative;
+}
+
+.explore--banner {
+  position: absolute;
+  margin-top: -75px;
+  right: 0;
+  width: 88%;
+  background-color: var(--cyber-yellow);
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+
+.explore--content--wrapper {
+  background-color: var(--cultured);
+  /* width: 59.5%; */
+  width: 100%;
+  margin: 0 auto;
+  border: solid 1px pink;
+  display: flex;
+  justify-content: center;
+}
+
+.explore--content {
+  width: 1140px;
+  border: solid 1px purple;
+}
+
+.explore--content__intro {
+  width: 100%;
+  border: solid 1px hotpink;
+}
