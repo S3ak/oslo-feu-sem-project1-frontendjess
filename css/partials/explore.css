@@ -30,10 +30,16 @@
 
 .explore--content {
   width: 1140px;
-  border: solid 1px purple;
+  /* border: solid 1px purple; */
 }
 
 .explore--content__intro {
   width: 100%;
-  border: solid 1px hotpink;
+  margin: var(--margin-section-wrappers);
+  /* line-height: 1.25rem; */
+}
+
+.explore--content__for-kids--banner {
+  background-color: var(--black);
+  padding: 25px 30px;
 }

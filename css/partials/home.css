@@ -193,7 +193,7 @@
 
 .contribute-volunteer-link,
 .contribute-donate-link {
-  padding: 15px;
+  padding: 15px 30px;
   background-color: var(--black);
   display: block;
   font-weight: 700;
