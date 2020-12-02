@@ -239,6 +239,10 @@ header {
   font-size: var(--font-xlarge);
 }
 
+.light-gray-content-text {
+  color: var(--light-gray-text);
+}
+
 /* content texts and headings */
 
 .content--p--text {

@@ -29,7 +29,7 @@
 }
 
 .explore--content {
-  width: 1140px;
+  max-width: 1140px;
   /* border: solid 1px purple; */
 }
 
@@ -42,4 +42,31 @@
 .explore--content__for-kids--banner {
   background-color: var(--black);
   padding: 25px 30px;
+}
+
+.explore--content__for-kids--content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--gap-columns);
+  border: solid 1px red;
+}
+
+.explore--content--images {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.for-kids--content--text {
+  background-color: var(--white);
+  border: solid 1px green;
+  padding: 30px;
+  height: 260px;
+}
+
+.for-kids--content--text-p {
+  padding-bottom: 15px;
+}
+
+.for-kids--content--young-stars-club {
+  border: solid 1px hotpink;
 }
