@@ -23,14 +23,11 @@
 
   .mobile-nav a {
     color: var(--white);
-    padding: 14px 16px;
+    padding: 14px 15px;
     text-decoration: none;
     font-size: var(--font-regular);
     display: block;
-  }
-
-  .mobile-nav a:hover {
-    border-bottom: solid 1px var(--cyber-yellow);
+    /* border-bottom: solid 1px var(--white); */
   }
 
   .mobile-nav a.icon {
@@ -51,13 +48,21 @@
     color: var(--white);
   }
 
+  .mobile-links-hover a {
+    border-bottom: solid 1px var(--white);
+  }
+
+  .mobile-links-hover a:hover {
+    border-bottom: solid 1px var(--cyber-yellow);
+  }
+
   .mobile-nav__searchbar input {
     color: var(--white);
   }
 
   .mobile-nav__searchbar input[type="text"] {
     width: 100%;
-    padding: 14px 16px;
+    padding: 14px 15px;
     background-color: var(--light-black);
     border: none;
     color: var(--white);
