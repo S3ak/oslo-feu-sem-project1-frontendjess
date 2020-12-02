@@ -213,6 +213,11 @@ header {
   text-decoration: underline;
 } */
 
+/* span font */
+.light-weight-font {
+  font-weight: 300;
+}
+
 /* social media - back to top links */
 
 .media-back-to-top-full-width {
@@ -264,6 +269,11 @@ header {
 .footer a {
   color: var(--white);
   text-decoration: none;
+  position: relative;
+}
+
+.footer a:hover {
+  border-bottom: solid 1px var(--cyber-yellow);
 }
 
 .footer ul {
