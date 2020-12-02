@@ -14,7 +14,7 @@
     overflow: hidden;
     background-color: var(--black);
     position: relative;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .mobile-nav #mobileLinks {
@@ -27,6 +27,11 @@
     text-decoration: none;
     font-size: var(--font-regular);
     display: block;
+    border-bottom: solid 1px var(--white);
+  }
+
+  .mobile-nav a:hover {
+    border-bottom: solid 1px var(--cyber-yellow);
   }
 
   .mobile-nav a.icon {
