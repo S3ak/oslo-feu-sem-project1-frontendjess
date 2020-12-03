@@ -243,6 +243,14 @@ header {
   color: var(--light-gray-text);
 }
 
+.red-text {
+  color: var(--red-text);
+}
+
+.italic-text {
+  font-style: italic;
+}
+
 /* content texts and headings */
 
 .content--p--text {
@@ -252,6 +260,11 @@ header {
 .content--section-banner--headings {
   color: var(--white);
   font-size: var(--font-xlarge);
+}
+
+.content--black-banners {
+  background-color: var(--black);
+  padding: 25px 30px;
 }
 
 /* social media - back to top links */

@@ -30,7 +30,6 @@
 
 .explore--content {
   max-width: 1140px;
-  /* border: solid 1px purple; */
 }
 
 .explore--content__intro {
@@ -39,34 +38,60 @@
   /* line-height: 1.25rem; */
 }
 
-.explore--content__for-kids--banner {
-  background-color: var(--black);
-  padding: 25px 30px;
-}
-
 .explore--content__for-kids--content-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: stretch;
+  flex-grow: 1;
   gap: var(--gap-columns);
-  border: solid 1px red;
+  width: 100%;
 }
 
-.explore--content--images {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.for-kids--content--text {
+.explore--content__for-kids__col {
   background-color: var(--white);
-  border: solid 1px green;
-  padding: 30px;
-  height: 260px;
+  width: 33%;
 }
 
-.for-kids--content--text-p {
-  padding-bottom: 15px;
+.explore-for-kids-images {
+  width: 100%;
+  display: block;
 }
 
-.for-kids--content--young-stars-club {
+.explore-for-kids--text-wrapper {
+  margin: var(--margin-content-text);
+}
+
+.explore-for-kids--text {
+  margin-top: var(--margin-top-content-text);
+}
+
+.explore-for-kids--book-now {
+  text-align: center;
+}
+
+.explore--content__for-teachers {
+  margin-top: 50px;
   border: solid 1px hotpink;
+}
+
+.explore--content__for-teachers--content-wrapper {
+  width: 100%;
+}
+
+.explore-content__for-teachers--col {
+  max-width: 100%;
+  height: auto;
+  background-color: var(--white);
+}
+
+.explore-for-teachers-image {
+  max-width: 100%;
+}
+
+.explore--for-teachers--text-wrapper {
+  margin-top: 30px;
+}
+
+.explore--for-teachers-text {
+  padding: 0 30px 30px 30px;
 }
