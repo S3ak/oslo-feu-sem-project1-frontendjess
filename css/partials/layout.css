@@ -14,7 +14,7 @@ body {
   width: 100%;
   font-family: var(--main-font);
   font-size: var(--font-regular);
-  text-decoration: none;
+
   outline: none;
   list-style: none;
 }
@@ -288,7 +288,7 @@ header {
 }
 
 .media-back-to-top a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .share-this-page-icons,

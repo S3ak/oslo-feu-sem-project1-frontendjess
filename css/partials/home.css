@@ -8,6 +8,10 @@
   text-decoration: none;
 }
 
+.home--main a:hover {
+  text-decoration: underline;
+}
+
 .home--hero-banner {
   background-image: url("../../img/museum-hero-banner.jpg");
   background-size: cover;
@@ -135,7 +139,7 @@
 
 .home--content__visit--content__heading a:hover,
 .home--content__visit--content__text a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .home--content__visit--content__text {
