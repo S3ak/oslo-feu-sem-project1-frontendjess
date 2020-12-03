@@ -104,7 +104,20 @@
     width: 100%;
   }
 
-  /* SHARE THIS PAGE - BADK TO TOP */
+  /* EXPLORE PAGE */
+  .explore--content__intro {
+    padding: 0 15px 0 15px;
+  }
+
+  .explore--content__for-kids--content-wrapper {
+    flex-direction: column;
+  }
+
+  .explore--content__for-kids__col {
+    width: 100%;
+  }
+
+  /* SHARE THIS PAGE - BACK TO TOP */
 
   .media-back-to-top {
     flex-direction: column;

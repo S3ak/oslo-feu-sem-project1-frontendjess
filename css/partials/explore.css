@@ -23,13 +23,13 @@
   /* width: 59.5%; */
   width: 100%;
   margin: 0 auto;
-  border: solid 1px pink;
   display: flex;
   justify-content: center;
 }
 
 .explore--content {
   max-width: 1140px;
+  margin-bottom: 50px;
 }
 
 .explore--content__intro {
@@ -69,29 +69,34 @@
   text-align: center;
 }
 
-.explore--content__for-teachers {
+.explore--content__for-teachers,
+.explore--content__for-researchers {
   margin-top: 50px;
-  border: solid 1px hotpink;
 }
 
-.explore--content__for-teachers--content-wrapper {
+.explore--content__for-teachers--content-wrapper,
+.explore--content__for-researchers--content-wrapper {
   width: 100%;
 }
 
-.explore-content__for-teachers--col {
+.explore-content__for-teachers--col,
+.explore-content__for-researchers--col {
   max-width: 100%;
   height: auto;
   background-color: var(--white);
 }
 
-.explore-for-teachers-image {
+.explore-for-teachers-image,
+.explore-for-researchers-image {
   max-width: 100%;
 }
 
-.explore--for-teachers--text-wrapper {
+.explore--for-teachers--text-wrapper,
+.explore--for-researchers--text-wrapper {
   margin-top: 30px;
 }
 
-.explore--for-teachers-text {
+.explore--for-teachers-text,
+.explore--for-researchers-text {
   padding: 0 30px 30px 30px;
 }
