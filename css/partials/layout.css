@@ -14,7 +14,7 @@ body {
   width: 100%;
   font-family: var(--main-font);
   font-size: var(--font-regular);
-
+  text-decoration: none;
   outline: none;
   list-style: none;
 }
@@ -217,7 +217,7 @@ header {
 }
 
 .banner-heading-text a:hover {
-  text-decoration: underline;
+  border-bottom: solid 1px var(--black);
 }
 
 /* .banner-heading-text a:hover {
@@ -267,6 +267,18 @@ header {
   padding: 25px 30px;
 }
 
+/* links */
+.content-link {
+  font-weight: 700;
+  color: var(--black);
+  text-decoration: none;
+  border-bottom: solid 1px var(--black);
+}
+
+.content-link:hover {
+  border-bottom: solid 1px var(--cyber-yellow);
+}
+
 /* social media - back to top links */
 
 .media-back-to-top-full-width {
@@ -285,10 +297,11 @@ header {
 
 .media-back-to-top a {
   color: var(--black);
+  text-decoration: none;
 }
 
 .media-back-to-top a:hover {
-  text-decoration: underline;
+  border-bottom: solid 1px var(--black);
 }
 
 .share-this-page-icons,

@@ -9,7 +9,7 @@
 }
 
 .home--main a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .home--hero-banner {
@@ -139,7 +139,7 @@
 
 .home--content__visit--content__heading a:hover,
 .home--content__visit--content__text a:hover {
-  text-decoration: underline;
+  border-bottom: solid 1px var(--black);
 }
 
 .home--content__visit--content__text {
@@ -201,6 +201,11 @@
   background-color: var(--black);
   display: block;
   font-weight: 700;
+}
+
+.contribute-volunteer-link:hover,
+.contribute-donate-link:hover {
+  border-bottom: solid 1px var(--black);
 }
 
 .home--sub-content__contribute--link-banner {
