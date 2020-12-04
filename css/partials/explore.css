@@ -62,7 +62,7 @@
 }
 
 .explore-for-kids--text {
-  margin-top: var(--margin-top-content-text);
+  margin-bottom: var(--margin-top-content-text);
 }
 
 .explore-for-kids--book-now {

@@ -183,6 +183,10 @@
   color: var(--white);
 }
 
+/* .home--sub-content__contribute--wrapper a:hover {
+  text-decoration: underline;
+} */
+
 .contribute-images {
   max-width: 100%;
   display: block;
@@ -205,7 +209,7 @@
 
 .contribute-volunteer-link:hover,
 .contribute-donate-link:hover {
-  border-bottom: solid 1px var(--black);
+  border-bottom: solid 1px var(--white);
 }
 
 .home--sub-content__contribute--link-banner {

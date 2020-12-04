@@ -28,6 +28,8 @@
 
   --margin-content-text: 30px;
   --margin-top-content-text: 15px;
+  --margin-p-text-wrapper: 30px 30px 15px 30px;
+  --margin-bottom-p-text: 15px;
   --margin-top-section: 50px;
   --padding-content-text: 30px;
   --padding-footer: 30px 0 30px 0;
