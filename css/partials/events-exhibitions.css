@@ -1,0 +1,101 @@
+.events-exhibitions--hero-banner {
+  background-image: url("../../img/exhibition-spaces-6.jpg");
+  background-size: cover;
+  background-position: center center;
+  max-width: 100%;
+  height: 700px;
+  position: relative;
+}
+
+.events-exhibitions--banner {
+  position: absolute;
+  margin-top: -75px;
+  right: 0;
+  width: 88%;
+  background-color: var(--neon-blue);
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+
+.events-exhibitions--content--wrapper {
+  background-color: var(--cultured);
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.events-exhibitions--content {
+  max-width: 1140px;
+  width: 100%;
+  margin-bottom: 50px;
+  border: solid 1px blue;
+}
+
+.events-exhibitions--content__title {
+  max-width: 1140px;
+  margin: var(--margin-section-wrappers);
+}
+
+/* grid container */
+
+.events-exhibitions--grid-wrapper {
+  display: grid;
+  grid-template-areas:
+    "museum-admission visiting-professor night-in-museum"
+    "energetica blank related-pages";
+  grid-gap: var(--gap-columns);
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1140px;
+}
+
+.events-exhibitions--museum-admission {
+  grid-area: museum-admission;
+  position: relative;
+  border: solid 1px black;
+}
+
+/* check resource doc for border credit (sciencemuseum.org.uk) */
+.events-exhibitions--museum-admission:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border: 2px solid var(--neon-blue);
+  margin: -5px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.events-exhibitions--visiting-professor {
+  grid-area: visiting-professor;
+}
+
+.events-exhibitions--night-in-museum {
+  grid-area: night-in-museum;
+}
+
+.events-exhibitions--energetica {
+  grid-area: energetica;
+}
+
+.events-exhibitions--blank {
+  grid-area: blank;
+}
+
+.events-exhibitions--related-pages {
+  grid-area: related-pages;
+}
+
+.events-exhibitions--museum-admission,
+.events-exhibitions--visiting-professor,
+.events-exhibitions--night-in-museum,
+.events-exhibitions--energetica,
+.events-exhibitions--blank,
+.events-exhibitions--related-pages {
+  display: flex;
+  flex-direction: column;
+}
