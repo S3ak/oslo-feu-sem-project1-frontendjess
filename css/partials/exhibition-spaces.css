@@ -21,7 +21,6 @@
 .exhibition-spaces--content--wrapper {
   background-color: var(--cultured);
   width: 100%;
-  border: solid 1px hotpink;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -31,7 +30,6 @@
   max-width: 1140px;
   width: 100%;
   margin-bottom: 50px;
-  border: solid 1px blue;
 }
 
 .exhibition-spaces--content__title {
@@ -48,9 +46,8 @@
     "biology-medicine robotics-ai"
     "ecology related-pages";
   grid-gap: var(--gap-columns);
-  grid-template-columns: minmax(50%, 1fr) minmax (50%, 1fr);
+  grid-template-columns: 1fr 1fr;
   max-width: 1140px;
-  border: solid 1px orange;
 }
 
 .exhibition-spaces--cosmology {
@@ -90,12 +87,10 @@
 
 .exhibition-spaces--content-images {
   max-width: 100%;
-  width: 100%;
-  display: block;
 }
 
 .exhibition-spaces--content__category {
-  padding: 15px;
+  padding: var(--padding-category-banners);
   text-align: center;
   background-color: var(--black);
   color: var(--white);
@@ -113,4 +108,31 @@
 
 .exhibition-spaces--related-pages {
   padding: 30px;
+}
+
+.related-pages-heading {
+  font-family: var(--roboto-font);
+  font-size: var(--font-xlarge);
+  font-weight: 700;
+}
+
+.related-pages-links-wrapper {
+  margin-top: 30px;
+}
+
+.related-pages-link {
+  background-color: var(--cultured);
+  padding: 15px 0;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: var(--black);
+  font-family: var(--roboto-font);
+  font-size: var(--font-medium-large);
+  font-weight: 700;
+}
+
+.related-pages-link:hover {
+  /* border-bottom: solid 1px var(--black); */
+  background-color: var(--cyber-yellow);
 }
