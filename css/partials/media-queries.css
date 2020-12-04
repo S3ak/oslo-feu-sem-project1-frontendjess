@@ -117,6 +117,22 @@
     width: 100%;
   }
 
+  /* EXHIBITION SPACES PAGE */
+  .exhibition-spaces--spaces-wrapper {
+    grid-template-areas:
+      "cosmology"
+      "evolution"
+      "biology-medicine"
+      "robotics-ai"
+      "ecology"
+      "related-pages";
+    grid-template-columns: 1fr;
+  }
+
+  .exhibition-spaces--content__title {
+    padding-left: 15px;
+  }
+
   /* SHARE THIS PAGE - BACK TO TOP */
 
   .media-back-to-top {

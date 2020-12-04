@@ -183,9 +183,9 @@
   color: var(--white);
 }
 
-/* .home--sub-content__contribute--wrapper a:hover {
+.home--sub-content__contribute--wrapper a:hover {
   text-decoration: underline;
-} */
+}
 
 .contribute-images {
   max-width: 100%;
@@ -207,10 +207,10 @@
   font-weight: 700;
 }
 
-.contribute-volunteer-link:hover,
+/* .contribute-volunteer-link:hover,
 .contribute-donate-link:hover {
   border-bottom: solid 1px var(--white);
-}
+} */
 
 .home--sub-content__contribute--link-banner {
   text-align: right;
