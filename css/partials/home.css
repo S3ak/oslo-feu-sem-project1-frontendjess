@@ -42,6 +42,11 @@
   margin-top: 5px;
 }
 
+.hero-banner-button {
+  display: flex;
+  justify-content: center;
+}
+
 .home--hero-banner__button {
   width: 250px;
   margin: 0 auto;
@@ -51,8 +56,13 @@
   border: none;
   font-family: var(--main-font);
   font-size: var(--font-medium-large);
-  font-weight: 600;
+  font-weight: 700;
   color: var(--white);
+  transition-duration: 0.2s;
+}
+
+.home--hero-banner__button:hover {
+  background-color: var(--black);
 }
 
 .home--hero-banner__text--intro {
