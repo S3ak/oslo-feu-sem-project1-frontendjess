@@ -109,30 +109,3 @@
 .exhibition-spaces--related-pages {
   padding: 30px;
 }
-
-.related-pages-heading {
-  font-family: var(--roboto-font);
-  font-size: var(--font-xlarge);
-  font-weight: 700;
-}
-
-.related-pages-links-wrapper {
-  margin-top: 30px;
-}
-
-.related-pages-link {
-  background-color: var(--cultured);
-  padding: 15px 0;
-  text-align: center;
-  display: block;
-  text-decoration: none;
-  color: var(--black);
-  font-family: var(--roboto-font);
-  font-size: var(--font-medium-large);
-  font-weight: 700;
-}
-
-.related-pages-link:hover {
-  /* border-bottom: solid 1px var(--black); */
-  background-color: var(--cyber-yellow);
-}
