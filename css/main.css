@@ -5,6 +5,7 @@
 @import "./partials/explore.css";
 @import "./partials/exhibition-spaces.css";
 @import "./partials/events-exhibitions.css";
+@import "./partials/visit.css";
 
 /* media queries always go at the end dont add anything below this */
 @import "./partials/media-queries.css";
