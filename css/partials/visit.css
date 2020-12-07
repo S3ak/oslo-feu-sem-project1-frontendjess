@@ -57,3 +57,14 @@
   grid-area: side-bar;
   border: solid 1px hotpink;
 }
+
+.google-maps {
+  margin-top: 15px;
+  max-width: 100%;
+}
+
+.book-visit-button {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}

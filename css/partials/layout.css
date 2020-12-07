@@ -24,6 +24,11 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  font-size: var(--font-medium-large);
+  font-weight: 600;
+}
+
 /* header */
 
 header {
@@ -236,6 +241,10 @@ header {
   font-style: italic;
 }
 
+.bold {
+  font-weight: 700;
+}
+
 /* content texts and headings */
 
 .content--p--text {
@@ -250,6 +259,12 @@ header {
 .content--black-banners {
   background-color: var(--black);
   padding: 25px 30px;
+}
+
+.content--heading {
+  margin-top: 30px;
+  font-size: var(--font-medium-large);
+  font-weight: 700;
 }
 
 /* links */
@@ -311,6 +326,23 @@ header {
 .book-now-btn:hover {
   background-color: var(--cyber-yellow);
   color: var(--black);
+}
+
+.book-visit-btn {
+  font-family: var(--roboto-font);
+  font-size: var(--font-regular);
+  font-weight: 700;
+  background-color: var(--cyber-yellow);
+  color: var(--black);
+  padding: 15px 30px;
+  width: 100%;
+  transition-duration: 0.2s;
+  border: none;
+}
+
+.book-visit-btn:hover {
+  background-color: var(--black);
+  color: var(--white);
 }
 
 /* social media - back to top links */
