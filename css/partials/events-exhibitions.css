@@ -143,3 +143,8 @@
   font-size: var(--font-regular);
   font-weight: 700;
 }
+
+.events-exhibitions--related-pages {
+  background-color: var(--white);
+  padding: 30px;
+}
