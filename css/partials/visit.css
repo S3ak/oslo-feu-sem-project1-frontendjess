@@ -30,7 +30,6 @@
   max-width: 1140px;
   width: 100%;
   margin-bottom: 50px;
-  border: solid 1px blue;
 }
 
 .visit--content__title {
@@ -50,12 +49,10 @@
 
 .visit--blog {
   grid-area: blog;
-  border: solid 1px hotpink;
 }
 
 .visit--side-bar {
   grid-area: side-bar;
-  border: solid 1px hotpink;
 }
 
 .google-maps {
@@ -66,5 +63,44 @@
 .book-visit-button {
   margin-top: 15px;
   display: flex;
+  justify-content: flex-start;
+}
+
+.visit--side-bar__map {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.map-heading {
+  font-weight: 700;
+  font-size: var(--font-medium);
+}
+
+.map-wrapper {
+  display: flex;
   justify-content: center;
+  margin-top: 15px;
+}
+
+.download-map-btn {
+  font-family: var(--roboto-font);
+  font-size: var(--font-regular);
+  font-weight: 700;
+  background-color: var(--neon-blue);
+  color: var(--white);
+  padding: 15px 30px;
+  transition-duration: 0.2s;
+  border: none;
+}
+
+.download-map-btn:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.visit--side-bar--related-pages {
+  padding: 30px;
+  background-color: var(--white);
 }
