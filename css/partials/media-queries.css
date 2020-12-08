@@ -157,6 +157,14 @@
     padding: 0px 30px 0 30px;
   }
 
+  /* VISIT PAGE */
+  .visit--grid-wrapper {
+    grid-template-areas:
+      "blog"
+      "side-bar";
+    grid-template-columns: 100%;
+  }
+
   /* SHARE THIS PAGE - BACK TO TOP */
 
   .media-back-to-top {
