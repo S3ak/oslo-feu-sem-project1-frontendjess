@@ -165,11 +165,6 @@
     grid-template-columns: 100%;
   }
 
-  .visit--content__title,
-  .visit--blog {
-    padding: 0 30px 0 30px;
-  }
-
   /* GET INVOLVED PAGE */
 
   .get-involved--content__title {
@@ -220,6 +215,60 @@
 }
 
 /* tablet version */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .get-involved--content__support--text-wrapper {
+    width: 55%;
+  }
+
+  .get-involved--side-bar {
+    right: 0;
+    top: 1090px;
+  }
+}
+
+/* ipad pro */
+@media only screen and (min-width: 834px) and (max-width: 1112px) {
+  .get-involved--content__support--text-wrapper {
+    width: 65%;
+  }
+
+  .get-involved--side-bar {
+    right: 0;
+    top: 1055px;
+  }
+}
+
+/* ipad pro 12.9 - original with is 1024px but fixing it to 1113px */
+@media only screen and (min-width: 1113px) and (max-width: 1366px) {
+  .get-involved--content__support--text-wrapper {
+    width: 65%;
+  }
+
+  .get-involved--side-bar {
+    right: 10%;
+  }
+}
+
+/* below ipad pro resolutions */
+@media only screen and (max-width: 1113px) {
+  .media-back-to-top-full-width {
+    padding: 30px;
+  }
+
+  .page-content-tiles {
+    border: solid 1px purple;
+    padding-left: 30px;
+  }
+
+  .visit--content,
+  .events-exhibitions--content,
+  .exhibition-spaces--content,
+  .explore--content__intro {
+    padding: 0 30px 0 30px;
+  }
+}
+/* tablet & desktop version */
 
 @media only screen and (min-width: 768px) {
   .mobile-donation-related-pages {
