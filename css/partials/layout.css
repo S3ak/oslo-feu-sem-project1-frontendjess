@@ -29,6 +29,11 @@ h2 {
   font-weight: 600;
 }
 
+h3 {
+  font-size: var(--font-medium);
+  font-weight: 700;
+}
+
 /* header */
 
 header {
@@ -245,6 +250,10 @@ header {
   font-weight: 700;
 }
 
+.smaller-font {
+  font-size: var(--font-small);
+}
+
 /* content texts and headings */
 
 .content--p--text {
@@ -277,6 +286,11 @@ header {
 
 .content-link:hover {
   border-bottom: solid 1px var(--cyber-yellow);
+}
+
+/* margins */
+.margin-30 {
+  margin-bottom: 30px;
 }
 
 /* related pages */

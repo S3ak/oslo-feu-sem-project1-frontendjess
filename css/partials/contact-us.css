@@ -1,0 +1,125 @@
+.contact--hero-banner {
+  background-image: url("../../img/contact-us-hero-banner-3.jpg");
+  background-size: cover;
+  background-position: center center;
+  max-width: 100%;
+  height: 700px;
+  position: relative;
+}
+
+.contact--banner {
+  position: absolute;
+  margin-top: -75px;
+  right: 0;
+  width: 88%;
+  background-color: var(--neon-blue);
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+
+.contact--content--wrapper {
+  background-color: var(--cultured);
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.contact--content {
+  max-width: 1140px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.contact--content__title {
+  max-width: 1140px;
+  margin: var(--margin-section-wrappers);
+}
+
+/* grid container */
+.contact--grid-wrapper {
+  display: grid;
+  grid-template-areas: "blog side-bar";
+  grid-gap: var(--gap-columns);
+  grid-template-columns: 2fr 1fr;
+  max-width: 1140px;
+}
+
+.contact--blog {
+  grid-area: blog;
+  border: solid 1px hotpink;
+}
+
+.contacts-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.contacts-number,
+.contacts-email {
+  padding: 15px 30px;
+  background-color: var(--white);
+  font-weight: 700;
+  text-align: center;
+}
+
+.contacts-or {
+  font-weight: 600;
+}
+
+.contacts-email {
+  width: 395px;
+}
+
+.contact-text {
+  margin: 15px 0;
+}
+
+/* side-bar */
+
+.contact--side-bar {
+  grid-area: side-bar;
+  border: solid 1px hotpink;
+}
+
+.contact--side-bar__booking {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.booking-heading {
+  font-weight: 700;
+  font-size: var(--font-medium);
+}
+
+.contact--side-bar__book-btn {
+  margin-top: 15px;
+}
+
+.book-contact-btn:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+/* contact form */
+.form-grouping-1,
+.form-grouping-2 {
+  margin-bottom: 10px;
+  display: inline;
+  width: 100%;
+}
+
+.contact-form input[type="text"] {
+  padding: 7px;
+}
+
+.contact-form input[type="email"],
+.contact-form textarea {
+  padding: 7px;
+  width: 90%;
+}

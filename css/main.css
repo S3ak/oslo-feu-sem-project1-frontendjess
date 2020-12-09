@@ -7,6 +7,7 @@
 @import "./partials/events-exhibitions.css";
 @import "./partials/visit.css";
 @import "./partials/get-involved.css";
+@import "./partials/contact-us.css";
 
 /* media queries always go at the end dont add anything below this */
 @import "./partials/media-queries.css";
