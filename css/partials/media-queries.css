@@ -274,3 +274,10 @@
     display: none;
   }
 }
+
+/* for the get-involved side-bar on larger resolution */
+@media only screen and (min-width: 1800px) {
+  .get-involved--side-bar {
+    right: 20%;
+  }
+}
