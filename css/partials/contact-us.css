@@ -144,13 +144,19 @@
   display: inline-block;
 }
 
+.form-text {
+  font-size: var(--font-smaller);
+}
+
 .form-submit {
-  background-color: var(--cultured);
+  background-color: var(--neon-blue);
+  color: var(--white);
   border: none;
   padding: 15px 30px;
   font-weight: 700;
 }
 
 .form-submit:hover {
-  background-color: var(--cyber-yellow);
+  background-color: var(--black);
+  /* color: var(--black); */
 }
