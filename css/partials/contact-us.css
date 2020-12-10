@@ -48,7 +48,6 @@
 
 .contact--blog {
   grid-area: blog;
-  border: solid 1px hotpink;
 }
 
 .contacts-flex {
@@ -82,7 +81,6 @@
 
 .contact--side-bar {
   grid-area: side-bar;
-  border: solid 1px hotpink;
 }
 
 .contact--side-bar__booking {
@@ -107,19 +105,52 @@
 }
 
 /* contact form */
-.form-grouping-1,
-.form-grouping-2 {
-  margin-bottom: 10px;
-  display: inline;
+.contact-form-wrapper {
+  max-width: 100%;
+  background-color: var(--white);
+  padding: 30px;
+  border-radius: 2px;
+}
+
+.contact-form {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.contact-form input[type="text"] {
-  padding: 7px;
+.form-grouping-username {
+  width: calc((100% - 30px) / 2);
+  margin-bottom: 30px;
 }
 
-.contact-form input[type="email"],
-.contact-form textarea {
+.form-grouping-userinfo {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.fname,
+.lname,
+.email,
+.comment,
+.form-submit {
   padding: 7px;
-  width: 90%;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.comment {
+  display: inline-block;
+}
+
+.form-submit {
+  background-color: var(--cultured);
+  border: none;
+  padding: 15px 30px;
+  font-weight: 700;
+}
+
+.form-submit:hover {
+  background-color: var(--cyber-yellow);
 }
