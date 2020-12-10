@@ -70,24 +70,8 @@
 }
 
 .explore--content__for-teachers,
-.explore--content__flex-wrapper {
-  margin-top: 50px;
-}
-
-.explore--content__flex-wrapper {
-  display: grid;
-  grid-template-areas: "researchers related-pages";
-  grid-gap: var(--gap-columns);
-  grid-template-columns: 2fr 1fr;
-  max-width: 1140px;
-}
-
 .explore--content__for-researchers {
-  grid-area: researchers;
-}
-
-.explore--content__related-pages {
-  grid-area: related-pages;
+  margin-top: 50px;
 }
 
 .explore--content__for-teachers--content-wrapper,
