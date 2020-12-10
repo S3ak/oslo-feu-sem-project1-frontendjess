@@ -117,6 +117,13 @@
     width: 100%;
   }
 
+  .explore--content__grid-wrapper {
+    grid-template-areas:
+    "researchers"
+    "related-pages";
+  grid-template-columns: 100%;
+  }
+
   /* EXHIBITION SPACES PAGE */
   .exhibition-spaces--spaces-wrapper {
     grid-template-areas:

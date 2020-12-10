@@ -74,7 +74,7 @@
   margin-top: 50px;
 }
 
-.explore--content__flex-wrapper {
+.explore--content__grid-wrapper {
   display: grid;
   grid-template-areas: "researchers related-pages";
   grid-gap: var(--gap-columns);
