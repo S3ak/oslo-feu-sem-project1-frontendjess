@@ -129,6 +129,10 @@
   }
 
   /* EXHIBITION SPACES PAGE */
+  .exhibition-spaces--hero-banner {
+    background-position: 0% 0%;
+  }
+
   .exhibition-spaces--spaces-wrapper {
     grid-template-areas:
       "cosmology"
