@@ -55,10 +55,6 @@ header {
   color: var(--white);
 }
 
-.desktop-nav__logo {
-  /* border: solid 1px yellow; */
-}
-
 .desktop-nav__menu {
   display: -webkit-flex;
   display: -moz-flex;
