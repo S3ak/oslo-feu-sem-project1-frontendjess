@@ -149,6 +149,10 @@
   }
 
   /* EVENTS - EXHIBITIONS PAGE */
+  .events-exhibitions--hero-banner {
+    background-position: 75% 0%;
+  }
+
   .events-exhibitions--grid-wrapper {
     grid-template-areas:
       "museum-admission"
