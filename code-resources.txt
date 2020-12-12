@@ -1,0 +1,20 @@
+﻿Science museum semester project FEU1 
+Jessica Mitchell
+
+
+Code resource links: 
+
+
+CODE REFERENCES
+
+
+SEARCHBAR: Navigation Bar with Search Box Animation (youtube) - Author/user: Divinector -  https://www.youtube.com/watch?v=i87GvnEK5ss - Date: February 25 2020
+
+
+MOBILE HAMBURGER MENU: w3schools.com How To - Mobile Navigation Menu - https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+
+
+DESKTOP NAV HOVER EFFECT: Strike-through hover effect - Author/user Artyom on codepen - https://codepen.io/artyom-ivanov/pen/awyyzv
+
+
+CONTACT FORM: colorlib.com Contact Form V11 - Author: Colorlib - https://colorlib.com/etc/cf/ContactFrom_v11/index.html
