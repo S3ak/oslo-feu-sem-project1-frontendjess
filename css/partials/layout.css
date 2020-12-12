@@ -67,6 +67,8 @@ header {
   /* border: solid 1px yellow; */
 }
 
+/* searchbar/searchbox resource author Divinector - check resource doc for credit link */
+
 .desktop-nav__searchbar {
   position: relative;
   /* border: solid 1px green; */
@@ -115,8 +117,8 @@ header {
 
 .desktop-nav__searchbar input[type="text"].active {
   width: 220px;
-  padding: 0 10px;
   transition: all 0.5s 0.2s ease;
+  padding: 0 10px;
 }
 
 .mobile-nav {
@@ -124,7 +126,7 @@ header {
   width: 100%;
 }
 
-/* nav hover effect code by Artyom - check resource doc for credit link */
+/* resource: nav hover effect code by Artyom - check resource doc for credit link */
 .menu-effect li {
   display: inline-block;
 }
@@ -147,7 +149,6 @@ header {
   width: 100%;
   height: 3px;
   background: var(--cyber-yellow);
-  /* top: 47%; */
   bottom: 0%;
   animation: out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 }
