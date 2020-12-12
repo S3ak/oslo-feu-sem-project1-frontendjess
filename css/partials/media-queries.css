@@ -105,6 +105,10 @@
   }
 
   /* EXPLORE PAGE */
+  .explore--hero-banner {
+    background-position: 65% 0%;
+  }
+
   .explore--content__intro {
     padding: 0 30px 0 30px;
   }
